@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation">
+    <test name="Data Driven Test">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="org.example.tests.LoginTestWithDataDriven">
+            </class>
+        </classes>
+    </test>
+    <test name="Keyword Driven Test">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="org.example.tests.KeywordDriven">
+            </class>
+        </classes>
+    </test>
+</suite>

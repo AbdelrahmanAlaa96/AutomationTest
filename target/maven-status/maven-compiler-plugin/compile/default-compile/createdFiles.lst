@@ -1,0 +1,10 @@
+org\example\Screenshots.class
+org\example\actions\ElementActions.class
+org\example\readers\ExcelReader.class
+org\example\actions\BrowserActions.class
+org\example\Assertions.class
+org\example\Paths.class
+org\example\App.class
+org\example\ConfigUtil.class
+org\example\TestBase.class
+org\example\readers\PropertiesReader.class
